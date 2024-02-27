@@ -14,7 +14,7 @@
 .imagen-perfil{
 	height: 100%;
 	width: auto;
-	border-radius: 20px;
+	border-radius: 500px;
 	margin: 0% 10%;
 }
 
@@ -26,7 +26,8 @@
 }
 
 .nombre-perfil{
-	font-size: 1 rem;
+	font-size: 25px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cargo-perfil{
@@ -35,14 +36,15 @@
 
 .resena-perfil{
 	font-size: 1 rem;
+	text-align: justify;
 }
 
 button{
 	background-color: #120075;
 	border: none;
-	border-radius: 10px;
+	border-radius: 50px;
+	padding: 10px;
 	color: white;
-	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;

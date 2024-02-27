@@ -24,9 +24,21 @@ function Perfil(props) {
             </p>
 
             {/* Agregamos los botones para seguir en LinkedIn, YouTube y Twitter */}
-            <button onClick={() => window.open(props.linkedin, '_blank')}>LinkedIn</button>
-            <button onClick={() => window.open(props.youtube, '_blank')}>Youtube</button>
-            <button onClick={() => window.open(props.twitter, '_blank')}>Twitter</button>
+            <button onClick={() => window.open(props.linkedin, '_blank')}>
+                <img
+                src={require(`../imagenes/linkedIn.png`)}
+                alt="Logo LinkedIn" /> 
+            </button>
+            <button onClick={() => window.open(props.youtube, '_blank')}>
+                <img
+                src={require(`../imagenes/youtube.png`)}
+                alt="Logo Youtube" /> 
+            </button>
+            <button onClick={() => window.open(props.twitter, '_blank')}>
+                <img
+                src={require(`../imagenes/twitter.png`)}
+                alt="Logo Twitter" />
+            </button>
         </div>
     </div>
   );
